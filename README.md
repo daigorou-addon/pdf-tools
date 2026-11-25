@@ -31,6 +31,7 @@
 
 - **圧縮**：ページを画像にして作り直します。文字の選択・検索はできなくなります。元のファイルより大きくなる場合は保存しません。
 - **OCR**：初回は言語データのダウンロードが必要です。ページを画像にして文字層を付けるため、元のPDFとは別物になります。日本語は認識結果の文字の間に空白が入るため、検索で一致しないことがあります。認識の言語は、日本語＋English、English、简体中文＋English、繁體中文＋English、한국어＋English、Español から選べます。
+- **切り抜き**：表示される範囲を変えるだけで、切り落とした部分のデータはファイルに残ります。見せたくない情報を隠す用途には使えません。
 - **ページ番号**：数字は半角のみです。
 - **HTML→PDF**：印刷ダイアログが開くので、送信先で「PDFに保存」を選んでください。
 - パスワード付き（暗号化）のPDFは処理できません。パスワードの設定・解除にも対応していません。
@@ -86,6 +87,7 @@ Available in 日本語 / English / 한국어 / 简体中文 / 繁體中文 / Esp
 
 - **Compress**: Pages are rasterized and rebuilt, so text can no longer be selected or searched. If the result would be larger than the original, it is not saved.
 - **OCR**: Language data must be downloaded on first use. The result is rebuilt from page images with a text layer added, so it differs from the original PDF. For Japanese, spaces appear between recognized characters, which can make searches fail to match. Available languages: Japanese + English, English, Simplified Chinese + English, Traditional Chinese + English, Korean + English, Spanish.
+- **Crop**: This only changes the visible area. The trimmed-away content remains in the file, so it cannot be used to hide sensitive information.
 - **Page Numbers**: Half-width digits only.
 - **HTML to PDF**: A print dialog opens; choose "Save as PDF" as the destination.
 - Password-protected (encrypted) PDFs cannot be processed, and setting or removing passwords is not supported.
