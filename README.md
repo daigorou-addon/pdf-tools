@@ -36,7 +36,6 @@
 - **ページ番号**：数字は半角のみです。
 - **HTML→PDF**：印刷ダイアログが開くので、送信先で「PDFに保存」を選んでください。
 - パスワード付き（暗号化）のPDFは処理できません。パスワードの設定・解除にも対応していません。
-- 動作確認はChromeで行っています。
 
 ## 使用ライブラリ
 
@@ -93,7 +92,6 @@ Available in 日本語 / English / 한국어 / 简体中文 / 繁體中文 / Esp
 - **Page Numbers**: Half-width digits only.
 - **HTML to PDF**: A print dialog opens; choose "Save as PDF" as the destination.
 - Password-protected (encrypted) PDFs cannot be processed, and setting or removing passwords is not supported.
-- Tested in Chrome.
 
 ## Libraries
 
